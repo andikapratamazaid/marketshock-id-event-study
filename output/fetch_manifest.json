@@ -1,0 +1,60 @@
+{
+  "retrieval_date": "2026-11-17",
+  "series": [
+    {
+      "id": "ihsg",
+      "label": "IHSG (Jakarta Composite Index)",
+      "status": "OK",
+      "source": "Yahoo Finance chart API",
+      "url_pattern": "https://query1.finance.yahoo.com/v8/finance/chart/%5EJKSE?period1=1759276800&period2=1795046400&interval=1d&events=history",
+      "rows": 273,
+      "date_min": "2025-10-01",
+      "date_max": "2026-11-17",
+      "errors": []
+    },
+    {
+      "id": "usdidr",
+      "label": "USD/IDR exchange rate",
+      "status": "OK",
+      "source": "Yahoo Finance chart API",
+      "url_pattern": "https://query1.finance.yahoo.com/v8/finance/chart/IDR%3DX?period1=1759276800&period2=1795046400&interval=1d&events=history",
+      "rows": 293,
+      "date_min": "2025-09-30",
+      "date_max": "2026-11-17",
+      "errors": []
+    },
+    {
+      "id": "eido",
+      "label": "iShares MSCI Indonesia ETF (EIDO)",
+      "status": "OK",
+      "source": "Yahoo Finance chart API",
+      "url_pattern": "https://query1.finance.yahoo.com/v8/finance/chart/EIDO?period1=1759276800&period2=1795046400&interval=1d&events=history",
+      "rows": 284,
+      "date_min": "2025-10-01",
+      "date_max": "2026-11-16",
+      "errors": []
+    },
+    {
+      "id": "dxy",
+      "label": "US Dollar Index (DXY)",
+      "status": "OK",
+      "source": "Yahoo Finance chart API",
+      "url_pattern": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?period1=1759276800&period2=1795046400&interval=1d&events=history",
+      "rows": 285,
+      "date_min": "2025-10-01",
+      "date_max": "2026-11-17",
+      "errors": []
+    },
+    {
+      "id": "us10y",
+      "label": "US 10-year Treasury yield (CBOE ^TNX)",
+      "status": "OK",
+      "source": "Yahoo Finance chart API",
+      "url_pattern": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?period1=1759276800&period2=1795046400&interval=1d&events=history",
+      "rows": 284,
+      "date_min": "2025-10-01",
+      "date_max": "2026-11-16",
+      "errors": []
+    }
+  ]
+}

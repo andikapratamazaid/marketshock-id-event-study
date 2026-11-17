@@ -1,0 +1,411 @@
+{
+  "data_end": "2026-11-17",
+  "main_event_date": "2026-11-12",
+  "crosscheck_ihsg_2026_11_12": {
+    "fetched_close": 5250.89502,
+    "reported_close": 5250.9,
+    "fetched_daily_return_pct": 2.6561,
+    "reported_daily_return_pct": 2.66,
+    "previous_close": 5115.035156,
+    "previous_date": "2026-11-11"
+  },
+  "events": {
+    "hoax_factcheck_marker": {
+      "date": "2026-09-30",
+      "label": "Hoax wave fact-check marker (Kompas.com, 30 Sep 2026)",
+      "kind": "marker",
+      "series": {
+        "ihsg": {
+          "available": true,
+          "event_observation_date": "2026-09-30",
+          "on_exact_date": true,
+          "event_day_zscore": -0.8596591935692668,
+          "window_start_date": "2026-09-23",
+          "window_end_date": "2026-10-07",
+          "window_observations": 11,
+          "window_truncated": false,
+          "event_day_change_pct": -0.8259,
+          "window_cumulative_change_pct": -3.5795
+        },
+        "usdidr": {
+          "available": true,
+          "event_observation_date": "2026-09-30",
+          "on_exact_date": true,
+          "event_day_zscore": -1.4045372863197234,
+          "window_start_date": "2026-09-21",
+          "window_end_date": "2026-10-07",
+          "window_observations": 11,
+          "window_truncated": false,
+          "event_day_change_pct": -0.5311,
+          "window_cumulative_change_pct": 0.1765
+        },
+        "eido": {
+          "available": true,
+          "event_observation_date": "2026-09-30",
+          "on_exact_date": true,
+          "event_day_zscore": -0.6398857302514082,
+          "window_start_date": "2026-09-23",
+          "window_end_date": "2026-10-07",
+          "window_observations": 11,
+          "window_truncated": false,
+          "event_day_change_pct": -0.8453,
+          "window_cumulative_change_pct": -3.2626
+        },
+        "dxy": {
+          "available": true,
+          "event_observation_date": "2026-09-30",
+          "on_exact_date": true,
+          "event_day_zscore": 0.23729038090825844,
+          "window_start_date": "2026-09-23",
+          "window_end_date": "2026-10-07",
+          "window_observations": 11,
+          "window_truncated": false,
+          "event_day_change_pct": 0.0789,
+          "window_cumulative_change_pct": 1.1276
+        },
+        "us10y": {
+          "available": true,
+          "event_observation_date": "2026-09-30",
+          "on_exact_date": true,
+          "event_day_change_bps": 3.8,
+          "event_day_zscore": 0.587912011688107,
+          "window_start_date": "2026-09-23",
+          "window_end_date": "2026-10-07",
+          "window_truncated": false,
+          "window_change_bps": 16.3,
+          "yield_level_on_event_date": 5.293
+        }
+      }
+    },
+    "ma_decision": {
+      "date": "2026-10-30",
+      "label": "Supreme Court cassation decision (30 Oct 2026)",
+      "kind": "event",
+      "series": {
+        "ihsg": {
+          "available": true,
+          "event_observation_date": "2026-10-30",
+          "on_exact_date": true,
+          "event_day_zscore": -0.2271527717261479,
+          "window_start_date": "2026-10-23",
+          "window_end_date": "2026-11-06",
+          "window_observations": 11,
+          "window_truncated": false,
+          "event_day_change_pct": -0.8044,
+          "window_cumulative_change_pct": -7.1486
+        },
+        "usdidr": {
+          "available": true,
+          "event_observation_date": "2026-10-30",
+          "on_exact_date": true,
+          "event_day_zscore": -1.2929678489321437,
+          "window_start_date": "2026-10-20",
+          "window_end_date": "2026-11-11",
+          "window_observations": 11,
+          "window_truncated": false,
+          "event_day_change_pct": -0.4056,
+          "window_cumulative_change_pct": 0.8596
+        },
+        "eido": {
+          "available": true,
+          "event_observation_date": "2026-10-30",
+          "on_exact_date": true,
+          "event_day_zscore": -0.3300431708070212,
+          "window_start_date": "2026-10-23",
+          "window_end_date": "2026-11-06",
+          "window_observations": 11,
+          "window_truncated": false,
+          "event_day_change_pct": -1.1905,
+          "window_cumulative_change_pct": -5.0
+        },
+        "dxy": {
+          "available": true,
+          "event_observation_date": "2026-10-30",
+          "on_exact_date": true,
+          "event_day_zscore": -0.6685313968863519,
+          "window_start_date": "2026-10-23",
+          "window_end_date": "2026-11-06",
+          "window_observations": 11,
+          "window_truncated": false,
+          "event_day_change_pct": -0.1568,
+          "window_cumulative_change_pct": 0.4813
+        },
+        "us10y": {
+          "available": true,
+          "event_observation_date": "2026-10-30",
+          "on_exact_date": true,
+          "event_day_change_bps": -6.0,
+          "event_day_zscore": -1.3231857064095858,
+          "window_start_date": "2026-10-23",
+          "window_end_date": "2026-11-06",
+          "window_truncated": false,
+          "window_change_bps": -12.9,
+          "yield_level_on_event_date": 4.929
+        }
+      }
+    },
+    "hmp_proposal": {
+      "date": "2026-11-11",
+      "label": "HMP proposal and letter revocation (11 Nov 2026)",
+      "kind": "event",
+      "series": {
+        "ihsg": {
+          "available": true,
+          "event_observation_date": "2026-11-11",
+          "on_exact_date": true,
+          "event_day_zscore": 0.06574887830215753,
+          "window_start_date": "2026-11-04",
+          "window_end_date": "2026-11-17",
+          "window_observations": 10,
+          "window_truncated": true,
+          "event_day_change_pct": -0.2086,
+          "window_cumulative_change_pct": 7.9218
+        },
+        "usdidr": {
+          "available": true,
+          "event_observation_date": "2026-11-11",
+          "on_exact_date": true,
+          "event_day_zscore": 0.6351492650099406,
+          "window_start_date": "2026-10-30",
+          "window_end_date": "2026-11-17",
+          "window_observations": 8,
+          "window_truncated": true,
+          "event_day_change_pct": 0.4524,
+          "window_cumulative_change_pct": 0.9828
+        },
+        "eido": {
+          "available": true,
+          "event_observation_date": "2026-11-11",
+          "on_exact_date": true,
+          "event_day_zscore": 0.15990036493870846,
+          "window_start_date": "2026-11-04",
+          "window_end_date": "2026-11-16",
+          "window_observations": 9,
+          "window_truncated": true,
+          "event_day_change_pct": 0.098,
+          "window_cumulative_change_pct": 6.7005
+        },
+        "dxy": {
+          "available": true,
+          "event_observation_date": "2026-11-11",
+          "on_exact_date": true,
+          "event_day_zscore": 1.9298371673345325,
+          "window_start_date": "2026-11-04",
+          "window_end_date": "2026-11-17",
+          "window_observations": 10,
+          "window_truncated": true,
+          "event_day_change_pct": 0.6652,
+          "window_cumulative_change_pct": 1.9732
+        },
+        "us10y": {
+          "available": true,
+          "event_observation_date": "2026-11-11",
+          "on_exact_date": true,
+          "event_day_change_bps": 1.5,
+          "event_day_zscore": 0.20009159584121233,
+          "window_start_date": "2026-11-04",
+          "window_end_date": "2026-11-16",
+          "window_truncated": true,
+          "window_change_bps": 22.7,
+          "yield_level_on_event_date": 4.998
+        }
+      }
+    },
+    "resignation": {
+      "date": "2026-11-12",
+      "label": "Vice President resigns (12 Nov 2026, MAIN EVENT)",
+      "kind": "main_event",
+      "series": {
+        "ihsg": {
+          "available": true,
+          "event_observation_date": "2026-11-12",
+          "on_exact_date": true,
+          "event_day_zscore": 1.4357676001039572,
+          "window_start_date": "2026-11-05",
+          "window_end_date": "2026-11-17",
+          "window_observations": 9,
+          "window_truncated": true,
+          "event_day_change_pct": 2.6561,
+          "window_cumulative_change_pct": 5.5512
+        },
+        "usdidr": {
+          "available": true,
+          "event_observation_date": "2026-11-16",
+          "on_exact_date": false,
+          "event_day_zscore": null,
+          "window_start_date": "2026-11-02",
+          "window_end_date": "2026-11-17",
+          "window_observations": 7,
+          "window_truncated": true,
+          "event_day_change_pct": null,
+          "window_cumulative_change_pct": 0.7403
+        },
+        "eido": {
+          "available": true,
+          "event_observation_date": "2026-11-12",
+          "on_exact_date": true,
+          "event_day_zscore": 1.101062333720411,
+          "window_start_date": "2026-11-05",
+          "window_end_date": "2026-11-16",
+          "window_observations": 8,
+          "window_truncated": true,
+          "event_day_change_pct": 2.5465,
+          "window_cumulative_change_pct": 6.9176
+        },
+        "dxy": {
+          "available": true,
+          "event_observation_date": "2026-11-12",
+          "on_exact_date": true,
+          "event_day_zscore": 0.5976067853077514,
+          "window_start_date": "2026-11-05",
+          "window_end_date": "2026-11-17",
+          "window_observations": 9,
+          "window_truncated": true,
+          "event_day_change_pct": 0.2526,
+          "window_cumulative_change_pct": 1.933
+        },
+        "us10y": {
+          "available": true,
+          "event_observation_date": "2026-11-12",
+          "on_exact_date": true,
+          "event_day_change_bps": 10.5,
+          "event_day_zscore": 1.8776750456635363,
+          "window_start_date": "2026-11-05",
+          "window_end_date": "2026-11-16",
+          "window_truncated": true,
+          "window_change_bps": 28.4,
+          "yield_level_on_event_date": 5.103
+        }
+      }
+    }
+  },
+  "rolling_volatility_20d_pct": {
+    "ihsg": {
+      "on_2026_11_11": 53.3,
+      "on_2026_11_12": 54.53,
+      "on_2026_11_13": 35.984,
+      "max_oct_nov_2026": 54.53,
+      "max_oct_nov_2026_date": "2026-11-12",
+      "last_value": 26.592,
+      "last_date": "2026-11-17"
+    },
+    "usdidr": {
+      "on_2026_11_11": 18.043,
+      "on_2026_11_12": null,
+      "on_2026_11_13": null,
+      "max_oct_nov_2026": 18.043,
+      "max_oct_nov_2026_date": "2026-11-11",
+      "last_value": 18.015,
+      "last_date": "2026-11-17"
+    }
+  },
+  "global_investor_decomposition": {
+    "bracket_11nov_to_13nov": {
+      "ihsg_return_pct": 4.4842,
+      "eido_return_pct": 3.8198,
+      "dxy_return_pct": 0.4859,
+      "usdidr_return_pct": null,
+      "usdidr_residual_vs_dxy_pp": null,
+      "eido_minus_ihsg_pp": -0.6644,
+      "us10y_change_bps": 15.6
+    },
+    "bracket_11nov_to_16nov": {
+      "ihsg_return_pct": 4.0263,
+      "eido_return_pct": 2.9383,
+      "dxy_return_pct": 0.6219,
+      "usdidr_return_pct": 0.4542,
+      "usdidr_residual_vs_dxy_pp": -0.1677,
+      "eido_minus_ihsg_pp": -1.088,
+      "us10y_change_bps": 12.3
+    },
+    "event_day_2026_11_12": {
+      "ihsg_return_pct": 2.6561,
+      "eido_return_pct": 2.5465,
+      "dxy_return_pct": 0.2526,
+      "usdidr_return_pct": null,
+      "usdidr_note": "Not computable from the downloaded series: the Yahoo Finance USD/IDR closes for 12 and 13 Nov 2026 fall outside their own daily high-low ranges (invalid ticks) and were excluded, never replaced. Outlets reported spot prints between about 18,140 and 18,250 on 12 Nov (see reported_figures.csv).",
+      "us10y_change_bps": 10.5
+    }
+  },
+  "context_ytd_to_2026_11_12_pct": {
+    "ihsg": -39.2745,
+    "usdidr": null,
+    "usdidr_to_2026_11_11": 8.5642,
+    "eido": -44.0107,
+    "dxy": 4.9756
+  },
+  "levels": {
+    "ihsg_close_2026_11_11": 5115.035156,
+    "ihsg_close_2026_11_12": 5250.89502,
+    "ihsg_close_2026_11_13": 5344.405762,
+    "usdidr_close_2026_11_11": 18140.0,
+    "usdidr_close_2026_11_16": 18222.400391,
+    "eido_close_2026_11_11": 10.21,
+    "eido_close_2026_11_12": 10.47,
+    "dxy_close_2026_11_11": 102.910004,
+    "dxy_close_2026_11_12": 103.169998,
+    "us10y_yield_2026_11_11": 4.998,
+    "us10y_yield_2026_11_12": 5.103
+  },
+  "data_quality": {
+    "ihsg": {
+      "rows": 273,
+      "invalid_close_dates": [],
+      "invalid_close_count": 0
+    },
+    "usdidr": {
+      "rows": 293,
+      "invalid_close_dates": [
+        "2025-10-31",
+        "2025-11-04",
+        "2025-11-17",
+        "2025-11-24",
+        "2025-12-15",
+        "2025-12-22",
+        "2025-12-29",
+        "2026-01-05",
+        "2026-01-12",
+        "2026-01-19",
+        "2026-02-02",
+        "2026-03-02",
+        "2026-05-03",
+        "2026-05-26",
+        "2026-06-09",
+        "2026-07-14",
+        "2026-08-18",
+        "2026-09-24",
+        "2026-09-29",
+        "2026-10-14",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-06",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "invalid_close_count": 27
+    },
+    "eido": {
+      "rows": 284,
+      "invalid_close_dates": [],
+      "invalid_close_count": 0
+    },
+    "dxy": {
+      "rows": 285,
+      "invalid_close_dates": [],
+      "invalid_close_count": 0
+    },
+    "us10y": {
+      "rows": 284,
+      "invalid_close_dates": [],
+      "invalid_close_count": 0
+    }
+  },
+  "method_notes": [
+    "Returns are simple close-to-close returns on each series' own observation calendar; gaps are never filled.",
+    "A close outside its own daily high-low range is treated as an invalid tick, excluded from all calculations, and never replaced.",
+    "US 10Y (^TNX) is analysed as yield level changes in basis points, not percentage returns.",
+    "Event windows are [-5, +5] observations around the event observation; windows are truncated at the data end (17 Nov 2026) and the actual dates used are reported."
+  ]
+}
