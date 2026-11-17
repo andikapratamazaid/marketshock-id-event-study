@@ -38,6 +38,37 @@ impossible. The full reasoning is in `docs/findings_report.md`.
 | Foreign flow on 12 Nov 2026 (reported, Kontan) | Net buy Rp443.53 billion, against about Rp127 trillion net selling year-to-date |
 | SBN 10-year yield on 12 Nov 2026 (reported) | 7.63%, up about 7.9 bps |
 
+## Visual results
+
+**IHSG around the resignation.** The index had fallen 39.27% year-to-date
+into the event; the largest sustained repricing of the study period came
+in the Supreme Court decision window (23 October to 6 November, -7.15%),
+and the resignation day itself closed up 2.66% at 5,250.90.
+
+![IHSG timeline with event markers](charts/ihsg_timeline.png)
+
+**USD/IDR around the events.** The rupiah stayed near its weakest levels
+of the period. Note the gap on 12 to 13 November: the source feed's
+closes for those days are invalid ticks and are excluded, never replaced
+(see the data-quality disclosure below).
+
+![USD/IDR timeline with event markers](charts/usdidr_timeline.png)
+
+**Event-window comparison, local against global.** In the resignation
+window the local index (IHSG) and the US-listed Indonesia ETF (EIDO)
+moved almost identically (+2.66% and +2.55% on the day), while the
+dollar index (DXY) rose more than USD/IDR across the 11 to 16 November
+bracket, leaving an Indonesia-specific currency residual of -0.17 pp.
+
+![Event window comparison across series](charts/event_window_comparison.png)
+
+**Rolling 20-day volatility (annualised).** Volatility was already
+elevated before the political events, which is why event-day moves are
+scaled by trailing volatility throughout the study instead of being read
+at face value.
+
+![Rolling volatility of IHSG and USD/IDR](charts/rolling_volatility.png)
+
 ## Data
 
 All price data are real public data downloaded on **17 November 2026**
